@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tic Tac Toe V2.0</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer">
+        <h1>TIC TAC TOE</h1>
+        <div class="inner">
+            <div class="row">            
+                <button onclick="next(this)" class="box" id="1"></button>
+                <button onclick="next(this)" class="box" id="2"></button>
+                <button onclick="next(this)" class="box" id="3"></button>
+            </div> 
+            <div class="row">             
+                <button onclick="next(this)" class="box" id="4"></button>
+                <button onclick="next(this)" class="box" id="5"></button>
+                <button onclick="next(this)" class="box" id="6"></button>
+            </div> 
+            <div class="row">             
+                <button onclick="next(this)" class="box" id="7"></button>
+                <button onclick="next(this)" class="box" id="8"></button>
+                <button onclick="next(this)" class="box" id="9"></button>
+            </div>
+        </div>
+        <h2 class="winner"></h2>
+        <button onclick="rematch()" class="reset" style="display:none;"> RESET</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

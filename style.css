@@ -1,0 +1,32 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 40vw;
+}
+div.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div.row{
+    display: flex;
+    flex-direction: row;
+}
+button.box{
+    width:100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 2rem;
+}
